@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 236" width="820" height="236" fill="none" font-family="'Segoe UI', 'Poppins', system-ui, sans-serif">
+  <defs>
+    <linearGradient id="cardbg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#161b22"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+    <filter id="cg" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="2.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- CARD template repeated x4 -->
+  <!-- Card 1 : BACKEND -->
+  <g transform="translate(10 18)">
+    <rect width="191" height="200" rx="14" fill="url(#cardbg)" stroke="#2ea043" stroke-opacity="0.5"/>
+    <rect width="191" height="4" rx="2" fill="#3FE06B"/>
+    <circle cx="95" cy="46" r="20" fill="#3FE06B" fill-opacity="0.12" stroke="#3FE06B" stroke-opacity="0.6"/>
+    <path d="M95 34 l10 6 v12 l-10 6 -10 -6 v-12 z" fill="none" stroke="#3FE06B" stroke-width="2" filter="url(#cg)"/>
+    <text x="95" y="90" text-anchor="middle" font-size="16" font-weight="700" letter-spacing="2" fill="#3FE06B">BACKEND</text>
+    <text x="95" y="120" text-anchor="middle" font-size="12.5" fill="#c9d1d9">API Design</text>
+    <text x="95" y="142" text-anchor="middle" font-size="12.5" fill="#c9d1d9">Microservices</text>
+    <text x="95" y="164" text-anchor="middle" font-size="12.5" fill="#c9d1d9">Databases</text>
+    <text x="95" y="186" text-anchor="middle" font-size="12.5" fill="#c9d1d9">Caching</text>
+  </g>
+
+  <!-- Card 2 : INFRA -->
+  <g transform="translate(213 18)">
+    <rect width="191" height="200" rx="14" fill="url(#cardbg)" stroke="#2ea043" stroke-opacity="0.5"/>
+    <rect width="191" height="4" rx="2" fill="#56D364"/>
+    <circle cx="95" cy="46" r="20" fill="#56D364" fill-opacity="0.12" stroke="#56D364" stroke-opacity="0.6"/>
+    <g stroke="#56D364" stroke-width="2" filter="url(#cg)" fill="none">
+      <rect x="85" y="36" width="20" height="6" rx="1.5"/>
+      <rect x="85" y="45" width="20" height="6" rx="1.5"/>
+      <rect x="85" y="54" width="20" height="6" rx="1.5"/>
+    </g>
+    <text x="95" y="90" text-anchor="middle" font-size="16" font-weight="700" letter-spacing="2" fill="#56D364">INFRA</text>
+    <text x="95" y="120" text-anchor="middle" font-size="12.5" fill="#c9d1d9">Docker</text>
+    <text x="95" y="142" text-anchor="middle" font-size="12.5" fill="#c9d1d9">Linux &amp; Nginx</text>
+    <text x="95" y="164" text-anchor="middle" font-size="12.5" fill="#c9d1d9">Networking</text>
+    <text x="95" y="186" text-anchor="middle" font-size="12.5" fill="#c9d1d9">Cloudflare</text>
+  </g>
+
+  <!-- Card 3 : AUTOMATION -->
+  <g transform="translate(416 18)">
+    <rect width="191" height="200" rx="14" fill="url(#cardbg)" stroke="#2ea043" stroke-opacity="0.5"/>
+    <rect width="191" height="4" rx="2" fill="#2EA043"/>
+    <circle cx="95" cy="46" r="20" fill="#2EA043" fill-opacity="0.14" stroke="#2EA043" stroke-opacity="0.7"/>
+    <g stroke="#3FE06B" stroke-width="2" filter="url(#cg)" fill="none">
+      <circle cx="95" cy="46" r="8"/>
+      <path d="M95 34 v4 M95 54 v4 M83 46 h4 M107 46 h-4"/>
+    </g>
+    <text x="95" y="90" text-anchor="middle" font-size="15" font-weight="700" letter-spacing="1.5" fill="#3FE06B">AUTOMATION</text>
+    <text x="95" y="120" text-anchor="middle" font-size="12.5" fill="#c9d1d9">CI / CD</text>
+    <text x="95" y="142" text-anchor="middle" font-size="12.5" fill="#c9d1d9">Scripting</text>
+    <text x="95" y="164" text-anchor="middle" font-size="12.5" fill="#c9d1d9">Bots &amp; Cron</text>
+    <text x="95" y="186" text-anchor="middle" font-size="12.5" fill="#c9d1d9">Tooling</text>
+  </g>
+
+  <!-- Card 4 : SYSTEMS -->
+  <g transform="translate(619 18)">
+    <rect width="191" height="200" rx="14" fill="url(#cardbg)" stroke="#2ea043" stroke-opacity="0.5"/>
+    <rect width="191" height="4" rx="2" fill="#3FB950"/>
+    <circle cx="95" cy="46" r="20" fill="#3FB950" fill-opacity="0.12" stroke="#3FB950" stroke-opacity="0.6"/>
+    <path d="M83 52 l6 -8 5 5 8 -11 5 6" fill="none" stroke="#3FB950" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" filter="url(#cg)"/>
+    <text x="95" y="90" text-anchor="middle" font-size="16" font-weight="700" letter-spacing="2" fill="#3FB950">SYSTEMS</text>
+    <text x="95" y="120" text-anchor="middle" font-size="12.5" fill="#c9d1d9">Scaling</text>
+    <text x="95" y="142" text-anchor="middle" font-size="12.5" fill="#c9d1d9">Reliability</text>
+    <text x="95" y="164" text-anchor="middle" font-size="12.5" fill="#c9d1d9">Monitoring</text>
+    <text x="95" y="186" text-anchor="middle" font-size="12.5" fill="#c9d1d9">Performance</text>
+  </g>
+</svg>
